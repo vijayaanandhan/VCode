@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e0528db.css",
+    "main.js": "/static/js/main.b4795b89.js",
+    "static/js/453.afe93af8.chunk.js": "/static/js/453.afe93af8.chunk.js",
+    "static/media/Bgvideo.mp4": "/static/media/Bgvideo.420033e222df4e88aba8.mp4",
+    "static/media/BackToHome.png": "/static/media/BackToHome.f914a90bd316cea6d7e1.png",
+    "static/media/city1.png": "/static/media/city1.1aa34df4ce5e0dd15cc5.png",
+    "static/media/city2.png": "/static/media/city2.1aa34df4ce5e0dd15cc5.png",
+    "static/media/city3.png": "/static/media/city3.1aa34df4ce5e0dd15cc5.png",
+    "static/media/city4.png": "/static/media/city4.1aa34df4ce5e0dd15cc5.png",
+    "static/media/city5.png": "/static/media/city5.1aa34df4ce5e0dd15cc5.png",
+    "static/media/AlgorithmImg.png": "/static/media/AlgorithmImg.bee0b90b2fc0387a8a77.png",
+    "static/media/ConvertImg.png": "/static/media/ConvertImg.309d9ace7c42bdfa3c84.png",
+    "static/media/AnalyzeImg.png": "/static/media/AnalyzeImg.f46ea853571854b5cba2.png",
+    "static/media/CodeEaseIcon.png": "/static/media/CodeEaseIcon.9303b89cd7b4cd01ffd4.png",
+    "static/media/QuestionIcon.png": "/static/media/QuestionIcon.4cb7b24555fa8ebd68e9.png",
+    "static/media/CodeIcon.png": "/static/media/CodeIcon.0c54938970bed0eaf250.png",
+    "index.html": "/index.html",
+    "main.3e0528db.css.map": "/static/css/main.3e0528db.css.map",
+    "main.b4795b89.js.map": "/static/js/main.b4795b89.js.map",
+    "453.afe93af8.chunk.js.map": "/static/js/453.afe93af8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e0528db.css",
+    "static/js/main.b4795b89.js"
+  ]
+}

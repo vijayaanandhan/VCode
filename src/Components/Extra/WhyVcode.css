@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.class1{
+  
+  height: 720px;
+  display: flex; 
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+
+  
+}
+
+.class2{
+  @apply relative w-80 h-[460px];
+}
+  
+@layer components {
+  
+      .card1 {
+        @apply absolute top-0 left-0 h-full w-full;
+      }
+}
+
+.class3 {
+  @apply h-full w-full rounded-lg;
+}
+.why,.whyvcode{
+  position: absolute;
+}
+
+.why{
+  top:290px;
+  left: 260px;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: var(--cs-font-post-content-family), sans-serif;
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVRnUxCOFNm0gFuNEHgxtAtrsor0H9y1G42g&s') ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Font border using text-shadow */
+  text-shadow: 
+  2px 2px 0 rgba(0, 40, 80, 0.2), /* Dark blue for a lighter border effect */
+  -1px -1px 0 rgba(0, 40, 80, 0.2),
+  1px -1px 0 rgba(0, 40, 80, 0.2),
+  -1px 1px 0 rgba(0, 40, 80, 0.2),
+  1px 1px 0 rgba(0, 40, 80, 0.2),
+  3px 3px 5px rgba(50, 50, 70, 0.2); /* Dark gray-blue for the outer shadow */
+
+   text-shadow: 
+    3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.whyvcode{
+  top:290px;
+  right: 200px;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: var(--cs-font-post-content-family), sans-serif;
+
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIyEWSDug4vqZixWk7WH_WuVoLnnTyUCbZQA&s') ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Font border using text-shadow */
+  text-shadow: 
+  2px 2px 0 rgba(0, 80, 150, 0.3), /* Darker blue for a soft border effect */
+  -1px -1px 0 rgba(0, 80, 150, 0.3), 
+  1px -1px 0 rgba(0, 80, 150, 0.3),
+  -1px 1px 0 rgba(0, 80, 150, 0.3),
+  1px 1px 0 rgba(0, 80, 150, 0.3),
+  3px 3px 5px rgba(0, 100, 180, 0.4); /* Softer blue for the outer shadow */
+/* Light grey for a smoother shadow */
+
+
+   text-shadow: 
+    3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+

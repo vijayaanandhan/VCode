@@ -1,0 +1,392 @@
+
+:root {
+  --color-v3-light-blue: 173, 216, 230; 
+  --color-v3-purple: 128, 0, 128;
+  --color-v3-pink: 255, 20, 147;
+  --color-v3-blue: 0, 0, 255;
+  --color-v3-orange: 255, 165, 0;
+  --color-v3-white-0: 255, 255, 255;
+  --color-v3-white: 255, 255, 255;
+
+  --color-gradient-primary: linear-gradient(83deg, rgba(var(--color-v3-light-blue), 1) -5%, rgba(var(--color-v3-purple), 1) 51%, rgba(var(--color-v3-pink), 1) 125%);
+  --color-gradient-purple-1: linear-gradient(29deg, rgba(var(--color-v3-purple), 1) 26%, rgba(var(--color-v3-pink), 1) 161%);
+  --color-gradient-purple-2: linear-gradient(133deg, rgba(var(--color-v3-purple), 1) 16%, rgba(var(--color-v3-pink), 1) 136%);
+  --color-gradient-blue-1: linear-gradient(21deg, rgba(var(--color-v3-blue), 1) 33%, rgba(var(--color-v3-light-blue), 1) 129%);
+  --color-gradient-blue-2: linear-gradient(147deg, rgba(var(--color-v3-blue), 1) 14%, rgba(var(--color-v3-light-blue), 1) 103%);
+  --color-gradient-blue-purple-1: linear-gradient(159deg, rgba(var(--color-v3-purple), 1) 7%, rgba(var(--color-v3-light-blue), 1) 96%);
+  --color-gradient-blue-purple-2: linear-gradient(331deg, rgba(var(--color-v3-purple), 1) -6%, rgba(var(--color-v3-light-blue), 1) 107%);
+  --color-gradient-orange-pink-1: linear-gradient(201deg, rgba(var(--color-v3-pink), 1) -34%, rgba(var(--color-v3-orange), 1) 81%);
+  --color-gradient-orange-pink-2: linear-gradient(323deg, rgba(var(--color-v3-pink), 1) -45%, rgba(var(--color-v3-orange), 1) 106%);
+  --color-gradient-dark-purple-1: linear-gradient(340deg, rgba(var(--color-v3-pink), 1) -75%, #101f52 94%);
+  --color-gradient-dark-purple-2: linear-gradient(136deg, rgba(var(--color-v3-pink), 1) -76%, #101f52 85%);
+  --color-gradient-white-1: linear-gradient(164deg, rgba(var(--color-v3-white-0), 1) 4%, rgba(var(--color-v3-white), 1) 89%);
+  --color-button-primary-text: var(--color-v3-white); /* Corrected */
+  --color-button-primary-background: linear-gradient(263deg, rgba(var(--color-v3-pink), 1) -35%, rgba(var(--color-v3-purple), 1) 41%, #12d0fa 135%);
+  --color-button-primary-background-hover: linear-gradient(261deg, #831778 -65%, #7612fa -22%, #12d0fa 135%);
+}
+
+.codeease {
+    
+  
+    padding: 0;
+    
+    background:#FFFFFF;
+
+    background-repeat: no-repeat;
+    background-size: fixed;
+  }
+  
+
+  
+.codeease .container {
+    
+    height:400px;
+    width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+  }
+  
+  .codeease .card {
+    
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 35px;
+    border: 1px solid #ceceea;
+    box-shadow: 0 0 15px rgba(13, 21, 56, 0.1);
+   
+  }
+  
+  
+
+  .codeease .card h2 {
+    margin-left: 25px;
+    font-family: var(--cs-font-post-content-family), sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    
+    color:#292D34;
+
+  }
+  
+  .codeease .card textarea{
+    border: 1px solid #ceceea;
+    font-family: var(--cs-font-post-content-family), sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color:#000;
+    background-color: #f9f9fd;
+  }
+  
+  .codeease .card textarea::placeholder {
+    color: #939393; 
+    opacity: 1;
+    font-family: var(--cs-font-post-content-family), sans-serif;
+    font-style: normal;
+  }
+  
+  .codeease .card textarea:focus {
+    outline: none; /* Remove the outline on focus */
+    
+  }
+  
+  .codeease .code {
+    width: 1064px;
+    margin:30px;
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 60px;
+  }
+  .codeease .question{
+    width: 1064px;
+    margin:30px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 24px;
+  }
+  
+  .codeease .button-container {
+    display: flex;
+    justify-content:flex-start;
+    gap: 50px; 
+    margin-left: 390px;
+   
+    
+  }
+  
+  .codeease .button-container button {
+    background: linear-gradient(199deg, #45c4f9, #7d09ff , #ff0be5);
+    color: #ffffff;
+    border:none;
+    border-radius: var(--radius-6,12px); 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    transition: background-color 0.3s; 
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    font-style: normal;
+    box-shadow: 0 4px 4px 0 rgba(43, 40, 99, .1);
+    line-height: 24px;
+    opacity: 0.7;
+  }
+  
+  .codeease .button-container button:hover {
+    background: #f9f9fd;
+    color: #292D34; 
+    border: 2px solid #ceceea;
+  }
+  
+  .codeease .dropdown-wrapper select {
+    appearance: none;
+    padding: 10px 20px; 
+    border-radius: var(--radius-6,12px);
+    box-shadow: 0 4px 4px 0 rgba(43, 40, 99, .1);
+    font-size: 18px;
+    cursor: pointer; 
+    background: linear-gradient(199deg, #45c4f9, #7d09ff , #ff0be5);
+    color: #ffffff;
+    border:none;
+    text-align: center;
+    width: 110px;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height:24x;
+    height: 45px;
+    opacity: 0.7;
+  }
+  
+  .codeease .dropdown-wrapper option {
+    border: none;
+    appearance: none; 
+    padding: 10px; 
+    border-radius: 2px;
+    font-size: 16px; 
+    cursor: pointer; 
+    background-color: white;
+    color: black;
+    
+    text-align: center;
+  }
+  
+  .codeease .dropdown-wrapper select:hover {
+    background: #f9f9fd;
+    color: #292D34; 
+    border: 2px solid #ceceea;
+    
+  }
+  
+  .codeease .dropdown-wrapper select:focus {
+    outline: none; 
+    border: none; 
+    
+  }
+  
+  
+  
+  .codeease .response{
+    margin-top: 20px;
+    border: 1px solid #ccc; 
+    padding: 30px; 
+    border-radius: 5px;
+    background-color: #f9f9f9 ;
+    margin-bottom: 20px;
+  }
+  
+  .codeease .no-print{
+    background: linear-gradient(199deg, #45c4f9, #7d09ff , #ff0be5);
+    color: #ffffff;
+    border:none;
+    border-radius: var(--radius-6,12px); 
+    font-family: var(--cs-font-post-content-family), sans-serif;
+    box-shadow: 0 4px 4px 0 rgba(43, 40, 99, .1);
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    font-weight: 600;
+    font-style: normal;
+    transition: background-color 0.3s;
+  }
+  
+  .codeease .no-print:hover {
+    background: #f9f9fd;
+    color: #292D34; 
+    border: 2px solid #ceceea;
+  }
+  
+  .codeease .codeEaseLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+    height: 115px;
+  }
+  .codeease .logoName{
+    text-align: center;
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: var(--Dark-Blue, #24223e);
+    font-family: "Raleway", serif;
+    font-style: medium;
+  }
+
+  .codeease .logoName:hover{
+    text-align: center;
+    
+    background: linear-gradient(99deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    .letterE{
+      background: #24223e;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+  }
+
+  .letterE{
+     background: linear-gradient(99deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+
+  
+  
+  .codeease .logoImage{
+    height:70px;
+    width: 70px;
+  }
+  
+  .codeease .loading{
+    margin-top: 240px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+  }
+
+  
+
+  .ask{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 117px;
+    left: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 24px;
+    border: 1px solid #515289;
+    box-shadow: 0px 0px 12px #9191e4;
+    color: #515289;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+  }
+  .connect{
+    top: 370px;
+    left: 1280px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 24px;
+    border: 1px solid #FE934E;
+    box-shadow: 0px 0px 12px #faae7b;
+    color: #FE934E;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    position: absolute;
+  }
+  .understand{
+    top: 640px;
+    left: 1030px;
+    height: 40px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 24px;
+    border: 1px solid #5F69FD;
+    box-shadow: 0px 0px 12px #7f87fb;
+    color: #5F69FD;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    
+  }
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ask, .connect, .understand, .letterE {
+  opacity: 0; 
+  animation: fadeIn 1s ease forwards; 
+}
+.letterE {
+  animation-delay: 0.3s; 
+}
+.ask{
+  
+  animation-delay: 0.6s; 
+}
+.connect {
+  animation-delay: 0.9s; 
+}
+.understand {
+  animation-delay: 1.2s; 
+}
+
+.QuestionIcon{
+  position: absolute;
+  top: 170px;
+  left:480px;
+  height: 70px;
+  width: 70px;
+}
+
+.CodeIcon{
+  position: absolute;
+  top: 385px;
+  left:430px;
+  height: 70px;
+  width: 70px;
+}
+  
+.AlgorithmImg{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left:1100px;
+}
+
+.BackToHome{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 0;
+  top: 25px;
+  right: 25px;
+}
